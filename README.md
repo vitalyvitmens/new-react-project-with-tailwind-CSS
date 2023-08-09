@@ -4,12 +4,12 @@
 4. npx tailwindcss init
 5. В файл tailwind.config.js добавить:
 
-- /\*_ @type {import('tailwindcss').Config} _/
-- export const content = ['./src/**/*.{html,js}']
-- export const theme = {
--     extend: {},
-- }
-  export const plugins = []
+/** @type {import('tailwindcss').Config} */
+export const content = ['./src/**/*.{html,js}']
+export const theme = {
+	extend: {},
+}
+export const plugins = []
 
 6. В файл index.css добавьте директивы:
 
